@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "React ",
+  "scripts": {
+    "start":"parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gowthami-meenu/namasthe-react.git"
+  },
+  "keywords": [],
+  "author": "Gowthami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gowthami-meenu/namasthe-react/issues"
+  },
+  "homepage": "https://github.com/Gowthami-meenu/namasthe-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}
