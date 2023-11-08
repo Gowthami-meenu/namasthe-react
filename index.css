@@ -1,3 +1,90 @@
-#heading{
-    color: red
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.navItems ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navItems ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+.body{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.restaurant-container{
+    display: flex;
+    padding: 20px 0;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+
+.restro-card-container{
+    padding:10px;
+}
+
+.restro-card{
+    width: 176px;
+    height: 300px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    filter:drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px) ;
+}
+
+.restro-card img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px;
+}
+
+.restro-card h4, .restro-card p{
+    margin: 20px 0;
+}
+.filter-container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.filter-btn{
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(133, 193, 239);
+    box-shadow: none;
+    border: none;
+    width: 100px;
+    border-radius: 2px;
 }

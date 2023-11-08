@@ -21,3 +21,29 @@
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
  
+
+ /**
+ * Header
+ *  -Logo
+ *  - Nav Items
+ * 
+ * Body
+ *  - Search Component
+ *  - Restaurant Container
+ *  - Restaurant Card
+ *      - IMAGE
+ *      -  Name of res, star rating, cuisine, delivery time
+ * 
+ * Footer
+ *  - Copyright
+ *  - Address 
+ *  - 
+ */
+
+
+
+# REACT HOOKS
+Normal Js Utility functions 
+
+- useState() - Super Powerful State Variable
+- useEffect()
